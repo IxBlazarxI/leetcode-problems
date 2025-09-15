@@ -3,7 +3,7 @@
  * @param {string} brokenLetters
  * @return {number}
  */
-var canBeTypedWords = function(text, brokenLetters) {
+function canBeTypedWords(text, brokenLetters) {
   let splittedText = text.split(" ");    
   let count = 0;
 
