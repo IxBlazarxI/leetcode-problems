@@ -13,7 +13,6 @@ var compareVersion = function(version1, version2) {
   let len = Math.max(v1.length, v2.length);
   for (let i = 0; i < len; i++) {
     let n1 = v1[i] ? parseInt(v1[i]) : 0;
-    console.log(n1);
     let n2 = v2[i] ? parseInt(v2[i]) : 0;
     if (n1 > n2) {
       return 1;
