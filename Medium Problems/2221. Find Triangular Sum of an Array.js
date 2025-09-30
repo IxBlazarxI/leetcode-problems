@@ -18,5 +18,5 @@ var triangularSum = function(nums) {
   return nums[0];
 };
 
-let someArr = [1,2,3,4,5];
-console.log(triangularSum(someArr));
+let nums = [1, 2, 3, 4, 5];
+console.log(triangularSum(nums));
